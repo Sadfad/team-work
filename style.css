@@ -1,0 +1,85 @@
+.main-container{
+    width: 1200px;
+    margin: 0 auto;
+    justify-content: space-between;
+    display:flex;
+}
+
+h6 {
+color: #7F7F7F;
+font-family: "Poppins";
+}
+p{
+color:black;
+    font-family: "Poppins";
+}
+
+.women1, .women2, .women3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.women1 img, .women2 img, .women3 img {
+    width: 300px;
+    height: auto;
+    margin-bottom: 10px;
+    border-radius: 15px;
+}
+.payday1{
+    display: block;
+    white-space: nowrap;
+justify-content: center;
+flex-direction: row;
+
+  }
+  .payday1 img {
+    position: block;
+    width: auto;
+    height: auto;
+    justify-content: center;
+    flex-direction: row;
+  }
+
+    .vector8
+{
+    position:relative;
+    display:inline-block;
+}
+.vector8 img {
+    display:block;
+}
+.vector8 {
+    background:  50% 50% no-repeat;
+    width: 90%;
+    height: 90%;
+    position:absolute;
+    left:0;
+    top:0;
+}
+    h2 {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    margin-left: 20px;
+    margin-top: 0px;
+    }
+    h2 span {
+    color: #080808;
+    font-size: 30px;
+    line-height: 55px;
+    padding: 10px;
+}
+.square {
+    width: 120px;
+    height: 120px;
+    background: linear-gradient(1.32deg, #E0C340 0.13%, #DFC23E 3.97%, #E1C441 7.2%, #E3C743 10.13%, #E4C542 12.98%, #E6C744 15.99%, #E7C845 19.52%, #E5C643 23.96%, #E6C945 30.43%, #E3C743 36.49%, #E9CA48 42.49%, #EDCE49 49.35%, #F0D44C 55.42%, #F4D84F 61.43%, #F6DA52 65.74%, #F7DB53 72.23%, #F9DD55 77.43%, #F9DF56 83.84%, #FAE157 91.52%, #F9DF56 97.87%);
+;
+  position:block;
+  ;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+}
